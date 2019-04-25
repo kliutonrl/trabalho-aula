@@ -11,6 +11,20 @@ class Cadastro1Controller extends Controller {
     }
 
     public function cadastrar(Request $request ) {
+            $request->validate([
+                'nome' => 'required',
+                'cpf' => 'required|integer',
+                'email' => 'required',
+                'senha' => 'required',
+                'telefone' => 'required|integer',
+                'endereco' => 'required',
+                'cep' => 'required|integer',
+                'bairro' => 'required',
+                'numero' => 'required|integer',
+                'cidade' => 'required',
+                'estado' => 'required'
+            ]);
+
         return view('cadastro2');
     }
 

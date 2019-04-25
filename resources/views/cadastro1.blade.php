@@ -95,8 +95,8 @@
             <div id="cadastro">
                 <h1>Cadastrar</h1>
     
-                                            
-                <form action="{{url('cadastrar')}}" method="post">
+                                                           
+                <form action="{{url('cadastrar')}}" enctype="multipart/form-data" method="post">
                     
                         @csrf
     <p>
@@ -119,11 +119,7 @@
                 <label for="campo-senha"></label>
                 <input type="password" class="form-control" name="senha" id="campo-senha" placeholder="Senha" required="">
               </div>
-<p>              
-		<div class="form-group">
-                        <label for="campo-senhac"></label>
-                        <input type="password" class="form-control" name="senhac" id="campo-senhac" placeholder="Confirmar Senha" required="">
-                      </div>
+
 <p>
 		<div class="form-group">
                         <label for="campo-telefone"></label>
