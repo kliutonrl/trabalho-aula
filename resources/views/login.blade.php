@@ -73,7 +73,7 @@
            
                 <div class="top-right links">
                     
-                                         
+                               
                         
 
                         
@@ -99,7 +99,11 @@
         <div id="login">
                 <h1>Login</h1>
     
-                   
+                   @if(session('erro'))
+                   <div class="alert alert-danger">
+					<strong>Erro!</strong> {{session('erro')}}
+                </div>
+                    @endif
                         
                 <form action="{{url('logar')}}" method="post">
                     

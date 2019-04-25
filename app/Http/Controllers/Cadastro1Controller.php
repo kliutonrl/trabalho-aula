@@ -11,7 +11,7 @@ class Cadastro1Controller extends Controller {
     }
 
     public function cadastrar(Request $request ) {
-        echo $request->email;
+        return view('cadastro2');
     }
 
 }

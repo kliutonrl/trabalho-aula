@@ -96,7 +96,7 @@
                 <h1>Cadastrar</h1>
     
                                             
-                <form action="{{url('cadastrar')}}" method="post">
+                <form action="{{url('plano')}}" method="post">
                     
                         @csrf
     <p>
@@ -127,7 +127,7 @@
                                             </form>
                                 </fieldset>
                                 <p>
-                                <button type="submit" class="btn btn-default">Próxima BÁSICO</button>
+                                <button type="submit" class="btn btn-default">BÁSICO</button>
                                 <button type="submit" class="btn btn-default">INTERMEDIÁRIO</button>
                                 <button type="submit" class="btn btn-default">PREMIUM</button>
                                         

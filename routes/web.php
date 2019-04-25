@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/', 'LoginController@login');
-Route::get('/login', 'LoginController@login');
+Route::get('/login', 'LoginController@login')->name('login');
 Route::post('/logar', 'LoginController@logar')->name('logar');
 Route::get('/logout', 'LoginController@logout');
 
@@ -27,3 +27,4 @@ Route::post('/cadastrar', 'Cadastro1Controller@cadastrar');
 Route::get('/cadastro2', 'Cadastro2Controller@cadastro2');
 Route::get('/plano', 'Cadastro2Controller@plano');
 
+Route::get('/conteudo', 'ConteudoController@conteudo')->name('conteudo');
