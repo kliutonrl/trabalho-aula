@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Cliente;
+
 
 class LoginController extends Controller {
 
@@ -11,13 +13,15 @@ class LoginController extends Controller {
     }
 
     public function logar(Request $request ) {
-        if($request->email == 'admin@admin.com' && $request->password == '123456')
-            return redirect()->route('conteudo');
-            return redirect()->route('login')->with('erro', 'Senha ou login inválido');
-        
+        $cliente = Cliente::where('email', $request->email)->where('senha', $request->senha)->first();
+        if($cliente != null){
+        return redirect()->route('filmes.listar');
+    }
+        return redirect()->route('login')->with('erro', 'Senha ou login inválido');     
     }
 
-    public function logout() {
+    public function logout(Request $request) {
+        $request->session()->flush();
         return view('login');
     }
 }

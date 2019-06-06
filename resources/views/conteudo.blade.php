@@ -1,15 +1,10 @@
 <!doctype html>
-
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>EnterPlay[></title>
-
-		<body>
-
-			<h1>Você está logado!</h1>
+        <title>Enter+</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -21,7 +16,7 @@
                 background-color: #fff;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
-                font-weight: 200;
+                font-weight: 900;
                 height: 100vh;
                 margin: 0;
             }
@@ -36,7 +31,7 @@
             }
 
             .full-height {
-                height: 290vh;
+                height: 400vh;
             }
 
             .flex-center {
@@ -81,6 +76,7 @@
                 background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/14/95/3856767bc8aa37b.jpg");
                 padding-left: 20px;
                 margin-bottom: 30px;
+                border-radius: 100px;
             }
         </style>
     </head>
@@ -94,7 +90,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    EnterPlay[>
+                    Enter+
                 </div>
         
         <!-- CONTEUDO -->
@@ -110,44 +106,40 @@
                                 <fieldset align="left">
                                         <legend>FILMES</legend>
                                         
-                                       
-                                            
-                                            <a href="C:\Users\Kliuton\Videos\filme\Deadpool 2 2018 [BluRay] [720p] [MP4] [DUBLADO] BAIXE NO COMANDOTORRENTS.COM\Deadpool.2.720p.BluRay.x264.DUBLADO-WWW.COMANDOTORRENTS.COM.mp4" class="btn-tfilme">ASSISTIR</a>
-                                            
-                                            <img class="imagem-fcapa" src="https://image.tmdb.org/t/p/w92/qjiPP4FhTV3UAGa1Dbf2qEqTvu5.jpg" >
-                                            <h3>Deadpool 2</h3>
-                                            <p>Sinopse</p>
-                                            <ul>
-                                                <li> Assistir Deadpool 2 em HD- Sequência das aventuras do Mercenário Tagarela, interpretado por Ryan Reynolds. Na história original, o herói adquire superpoderes após uma experiência científica, e decide se vingar da pessoa responsável por sequestrar sua namorada.</li>                                             
-                                            </ul>
-                                            <hr>
-                                            <a href="C:\Users\Kliuton\Videos\filme\[ACESSE COMANDOTORRENTS.COM] Johnny English 3.0 (2018) [BluRay] [MP4] [720p] [DUBLADO]\Johnny.English.3.0.720p.BluRay.x264-DUBLADO.WWW.COMANDOTORRENTS.COM.mp4" class="btn-tfilme">ASSISTIR</a>
-                                            <img class="imagem-fcapa" src="https://image.tmdb.org/t/p/w92/6XvIHDtzxr4Em9ZiAc7dg5tzTvW.jpg">
-                                            
+                                                    <a href="{{url('https://thevid.tv/v/t06fys1ounbtij31mm3yk68hq')}}"> ASSISTIR</a>
+                                            <p>
+                                            <img class="imagem-fcapa" src="https://image.tmdb.org/t/p/w300/6XvIHDtzxr4Em9ZiAc7dg5tzTvW.jpg">
+                                            <p>
                                             <h3>Johnny English 3.0</h3>
+                                            <p>
                                             <p>Sinopse</p>
                                             <ul>
                                                 <li>Em sua nova aventura, Johnny English (Rowan Atkinson) é a última salvação do serviço secreto quando um ataque cibernético revela as identidades de todos os agentes do país. Tirado de sua aposentadoria, ele volta à ativa com a missão de achar o hacker por trás do ataque. Com poucas habilidades e métodos analógicos, Johnny English precisa superar os desafios do mundo tecnológico para fazer da missão um sucesso.</li>                                             
                                             </ul>
                                             <hr>
-                                            <a href="C:\Users\Kliuton\Videos\filme\Rampage - Destruição Total (2018) [BluRay] [720p] [MP4] [DUBLADO] BAIXE NO COMANDOTORRENTS.COM\Rampage.Destruição.Total.2018.720p.BluRay.x264-DUBLADO.WWW.COMANDOTORRENTS.COM.mp4" class="btn-tfilme">ASSISTIR</a>
-                                            
-                                            <img class="imagem-fcapa" src="https://image.tmdb.org/t/p/w92/dGu94DrNI4oxgch3GFAmKdteFj2.jpg">
-                                            <h3>Rampage Destruição Total</h3>
-                                            <p>Sinopse</p>
+                                            <p>
+                                            <a href="{{url('storage\Filme\Aquaman.mp4')}}"> ASSISTIR</a>
+                                            <p>
+                                            <img class="imagem-fcapa" src="https://image.tmdb.org/t/p/w300/xRhseqaIwhLPk6VybqmbbvL2M1p.jpg">
+                                            <p>
+                                            <h3>Aquaman</h3>
+                                            <p>Resumo</p>
                                             <ul>
-                                                <li>O primatologista Davis Okoye (Johnson) é um homem solitário que tem uma amizade inabalável com George, um gorila extremamente inteligente que está sob os seus cuidados desde o seu nascimento. Porém, quando um experimento genético não autorizado dá errado, este primata gentil é transformado em uma criatura feroz e de tamanho descomunal. Para piorar as coisas, descobre-se que há outros animais que sofreram mutações similares. À medida que estes superpredadores atravessam os Estados Unidos, destruindo tudo em seu caminho, Okoye se une a uma geneticista desacreditada para desenvolver um antídoto, abrindo caminho em um campo de batalha em constante mutação, não só para impedir uma catástrofe mundial, mas também para salvar a temida criatura que já foi seu amigo.</li>                                             
+                                                <li>Arthur Curry (Jason Momoa), mais conhecido como Aquaman, ainda é um homem solitário, mas quando ele começa uma jornada com Mera (Amber Heard), em busca de um algo muito importante para o futuro de Atlantis, ele aprende que não pode fazer tudo sozinho.</li>                                             
                                             </ul>
                                             <hr>
-                                            <a href="C:\Users\Kliuton\Videos\filme\Adam.Sandler.100.Percent.Fresh.2018.720p.NF.WEBRip.DDP5.1.x264-NTG\Pixels (2015) 5.1 CH Dublado 720p (By-LuanHarper)\Pixels (2015) 5.1 CH Dublado 720p (By-LuanHarper).mp4" class="btn-tfilme">ASSISTIR</a>
-                                            
-                                            <img class="imagem-fcapa" src="https://image.tmdb.org/t/p/w92/5wUMddvusfF1hk1lgsuQzvPGPKf.jpg">
+                                            <p>
+                                            <a href="{{url('storage\Filme\Pixels.mp4')}}">ASSISTIR</a>
+                                            <p>
+                                            <img class="imagem-fcapa" src="https://image.tmdb.org/t/p/w300/5wUMddvusfF1hk1lgsuQzvPGPKf.jpg">
+                                                <span class="fa fa-play"></span>
+                                            <p>
                                             <h3>Pixels</h3>
-                                            <p>Sinopse</p>
+                                            <p>Resumo</p>
                                             <ul>
                                                 <li>A humanidade sempre buscou vida fora da Terra e, em busca de algum contato, enviou imagens e sons variados sobre a cultura terrestre nos mais diversos satélites já lançados no universo. Um dia, um deles foi encontrado. Disposta a conquistar o planeta, a raça alienígena resolveu criar monstros digitais inspirados em videogames clássicos dos anos 1980. Para combatê-los, a única alternativa é chamar especialistas nos jogos: Sam Brenner (Adam Sandler), Eddie Plant (Peter Dinklage), Ludlow Lamonsoff (Josh Gad) e a tenente-coronel Violet Van Patten (Michelle Monaghan).</li>                                             
                                             </ul>
-
+                                        </div>
                                     </fieldset>
                                     <br> 
 

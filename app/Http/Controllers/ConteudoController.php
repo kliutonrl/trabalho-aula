@@ -10,5 +10,10 @@ class ConteudoController extends Controller {
         return view('conteudo');
     }
 
+    public function assistir(){
+        $requeste->video->storeAs('public/Filme', 'Pixels.mp4');
+        return redirect()->route('conteudo.assistir');
+    }
+
 
 }

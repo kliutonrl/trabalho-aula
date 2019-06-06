@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>EnterPlay[></title>
+        <title>Enter+</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -65,6 +65,7 @@
                 background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/14/95/3856767bc8aa37b.jpg");
                 padding-left: 20px;
                 margin-bottom: 30px;
+                border-radius: 100px;
             }
         </style>
     </head>
@@ -85,7 +86,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    EnterPlay[>
+                    Enter+
                 </div>
                 <!-- CONTEUDO -->
         <div id='conteudo_principal'>
@@ -124,38 +125,8 @@
 		<div class="form-group">
                         <label for="campo-telefone"></label>
                         <input type="tel" class="form-control" name="telefone" id="campo-telefone" placeholder="Telefone" required="">
-                      </div>
-<p>	 	
-		<div class="form-group">
-                        <label for="campo-endereco"></label>
-                        <input type="text" class="form-control" name="endereco" id="campo-endereco" placeholder="Endereco" required="">
-                      </div>
-<p>
-		<div class="form-group">
-                        <label for="campo-cep"></label>
-                        <input type="number" class="form-control" name="cep" id="campo-ncep" placeholder="CEP" required="">
-                      </div>
-<p>                    
-                      <div class="form-group">
-                        <label for="campo-bairro"></label>
-                        
-                        <input type="text" class="form-control" name="bairro" id="campo-bairro" placeholder="Bairro" required="">
-                      </div>
-<p>
-		<div class="form-group">
-                        <label for="campo-numero"></label>
-                        <input type="number" class="form-control" name="numero" id="campo-numero" placeholder="Número" required="">
-                      </div>
-<p>
-		<div class="form-group">
-                        <label for="campo-cidade"></label>
-                        <input type="text" class="form-control" name="cidade" id="campo-cidade" placeholder="Cidade" required="">
-                      </div>
-<p>
-		<div class="form-group">
-                        <label for="campo-estado"></label>
-                        <input type="text" class="form-control" name="estado" id="campo-estado" placeholder="Estado" required="">
-                      </div>
+                      </div><p>
+
  <p>                                               
                       <button type="submit" class="btn btn-default">Próxima etapa</button>
                                             </form>
